@@ -1,3 +1,22 @@
 div {
     border: solid black 2px;
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+#titlebar {
+    grid-column: span 2;
+}
+
+#sidebar {
+    grid-row: span 4;
+}
+
+#footer {
+    grid-column: span 2;
 }
